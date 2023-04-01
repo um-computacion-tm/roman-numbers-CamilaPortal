@@ -83,6 +83,10 @@ class TestRomanToDecimal(unittest.TestCase):
         resultado = roman_to_decimal("CCXCIX")
         self.assertEqual(resultado, 299)
 
+    def test500(self):
+        resultado = roman_to_decimal("D")
+        self.assertEqual(resultado, 500)
+
     def test850(self):
         resultado = roman_to_decimal("DCCCL")
         self.assertEqual(resultado, 850)
